@@ -1,0 +1,326 @@
+<!-- filepath: /my-portfolio-website/my-portfolio-website/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishnu Vardhan | Data Scientist | Data Analyst & Machine Learning Enthusiast </title>
+  <link rel="stylesheet" href="css1.css"/>
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px);}
+      to   { opacity: 1; transform: translateY(0);}
+    }
+    .card, .project-block, .profile-section {
+      opacity: 0;
+      animation: fadeInUp 1s ease forwards;
+    }
+    .card { animation-delay: 0.2s; }
+    .profile-section { animation-delay: 0.1s; }
+    .project-block { animation-delay: 0.3s; }
+    .centered-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 36px 12px 60px 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      width: 100%;
+      margin-top: 16px;
+      box-sizing: border-box;
+    }
+    .skill-category {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .skill-category h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+      color: #0097e6;
+    }
+    .skill-category ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 0.98em;
+    }
+    .card {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .project-img {
+      width: 120px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certificate">Certificate</a>
+    </nav>
+  </header>
+  <main class="centered-container">
+    <div class="profile-section">
+      <img src="c:\Users\Vishnu Bogeshwar\Downloads\IMG_20250630_181550.jpg" alt="Vishnu Vardhan" class="profile-img"/>
+      <h1><big>Vishnu Vardhan Pulabaigari </big></h1>
+      <p class="subtitle">Aspiring Data Scientist | Data Analyst With python • MySQL • GenAI • EDA | AI & Machine Learning Enthusiast</p>
+      <div class="links">
+        <a href="tel:+917702961893">+91 7702961893</a> |
+        <a href="mailto:vishnuvardhan1893@gmail.com">vishnuvardhan1893@gmail.com</a> |
+        <a href="https://github.com/vishnu08-p" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/vishnu-pulabaigari-a2a756301/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I'm Vishnu Vardhan Pulabaigari, a data analyst and aspiring data scientist with a BCA in Big Data and Machine Learning. I specialize in predictive modeling, GenAI-powered analytics, and backend integration—bringing together clean code, smart algorithms, and real-world impact.</p>
+      <p>I’ve completed the Microsoft Foundations of AI Internship and contributed to GenAI-powered analytics strategies through Tata & Forage’s virtual experience. Whether it’s debugging backend logic, optimizing workflows, or translating insights into business-ready reports, I bring precision, resilience, and a passion for ethical AI to every project.</p>
+      <p>In my loan approval prediction project, I personally handled the entire coding—from data preprocessing and model building to backend API integration—solving every technical challenge end-to-end.</p>
+    </section>
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Developer Tools</h3>
+          <ul>
+            <li>VS Code</li>
+            <li>Google Cloud Platform</li>
+            <li>ChatGPT</li>
+            <li>Google Gemini</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Technologies & Frameworks</h3>
+          <ul>
+            <li>GitHub</li>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Machine Learning Algorithms</li>
+            <li>GenAI</li>
+            <li>No-Code Predictive Modeling</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Libraries</h3>
+          <ul>
+            <li>Pandas</li>
+            <li>Numpy</li>
+            <li>Scikit-learn</li>
+            <li>seaborn</li>
+            <li>plotly.express</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Data Science & Analytics</h3>
+          <ul>
+            <li>Exploratory Data Analysis (EDA)</li>
+            <li>Data Interpretation</li>
+            <li>Predictive Modeling</li>
+            <li>Handling Missing Data</li>
+            <li>Model Selection</li>
+            <li>Model Justification</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Business & Strategy</h3>
+          <ul>
+            <li>AI Strategy Design</li>
+            <li>Analytical Reporting</li>
+            <li>Automation Planning</li>
+            <li>Decision Justification</li>
+            <li>Regulatory Awareness</li>
+            <li>Ethical Reasoning</li>
+            <li>Strategic Thinking</li>
+            <li>Business Communication</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Team Play</li>
+            <li>Critical Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div>
+        <div>
+          <img src="c:\Users\Vishnu Bogeshwar\Downloads\Loan-Commitment-vs-Pre-Approval-1080x675.jpg" alt="Loan Approval Prediction System" class="project-img"/>
+          <h3>Loan Approval Prediction System</h3>
+          <ul>
+            <li>Developed a machine learning model to predict loan approval based on applicant data.</li>
+            <li>Utilized Python and machine learning algorithms (Decision Tree & Random Forest) to analyze financial datasets.</li>
+            <li>Achieved over 96% accuracy in predicting loan approvals using real-world financial data.</li>
+            <li>Automated the loan approval process for financial institutions, reducing manual workload and minimizing human error.</li>
+            <li>Implemented data cleaning, feature engineering, and model evaluation steps to ensure robust and reliable predictions.</li>
+            <li>Enabled banks and lenders to make quick, data-driven decisions, improving efficiency and customer satisfaction.</li>
+          </ul>
+          <a href="https://github.com/vishnu08-p/Loan_approval_Prediction.git" target="_blank">View on GitHub</a>
+        </div>
+        <!--
+        <div>
+          <img src="c:\Users\Vishnu Bogeshwar\Downloads\forage_logo.png.png" alt="Forage Logo" style="width:120px; max-width:100%; height:10%; margin-bottom:20px; display:block;"/>
+          <h3>Tata Group Data Analytics Job Simulation (Forage) – July 2025</h3>
+          <ul>
+            <li>Developed an AI-powered strategy for predicting and reducing customer credit delinquency in financial services as part of Tata iQ’s virtual internship.</li>
+            <li>Conducted EDA using GenAI tools (ChatGPT, Google Gemini) to assess data quality and identify risk indicators.</li>
+            <li>Proposed a no-code predictive modeling framework for customer delinquency risk assessment.</li>
+            <li>Designed an AI-driven collections strategy, focusing on ethical AI, regulatory compliance, and scalable implementation.</li>
+          </ul>
+        </div>
+        -->
+      </div>
+      
+
+        <!-- Added: Blinkit sales analysis (Tier 1/2/3) -->
+        <div class="project-block">
+          <img src="https://www.livemint.com/lm-img/img/2023/08/16/1600x900/blinkit_1681544326205_1692183269883.png" alt="Blinkit Sales Analysis" class="project-img"/>
+          <div>
+            <h3>Blinkit Sales Analysis — Tier 1, 2, 3 Cities</h3>
+            <p>I just completed an end-to-end Power BI project focused on Blinkit sales data. I transformed raw data into a dynamic dashboard that visualizes key metrics like sales trends and customer satisfaction by location. The goal was to provide a clear picture of what's driving performance.</p>
+            <p>This was a great opportunity to apply my skills in data transformation and dashboard design. I'm eager to connect with others in the data field! You can see the full dashboard in the video.</p>
+            <p>The dashboard also highlights top- and low-performing products, so you can quickly see which products sell well and which underperform across Tier 1/2/3 cities.</p>
+            <ul>
+              <li>Built a Power BI dashboard analyzing Blinkit sales across Tier 1/2/3 city segments.</li>
+              <li>Performed city-tier segmentation, time-series trends, SKU-level performance and basket analysis.</li>
+              <li>Implemented slicers, drill-throughs and map visuals to compare geography and growth rates.</li>
+              <li>Delivered actionable insights to optimize assortment and last-mile operations.</li>
+            </ul>
+            <a href="git@github.com:vishnu08-p/Blinkit_sales.git" target="_blank">git@github.com:vishnu08-p/Blinkit_sales.git</a>
+          </div>
+        </div>
+                 
+        <!-- Added: World GDP growth 2020-2025 -->
+        <div class="project-block">
+          <img src="https://img.freepik.com/premium-vector/political-map-world-world-map-cut-out-paper_594089-2192.jpg" alt="World GDP Growth 2020-2025" class="project-img"/>
+          <div>
+            <h3>🌍 Global GDP Growth Dashboard - Big Data Analysis with Power BI 📊</h3>
+            <p>Excited to share my Power BI project analysing GDP growth across all countries worldwide using a rich Kaggle dataset. This end-to-end dashboard turns large-scale economic data into interactive insights for policymakers, analysts and researchers.</p>
+            <ul>
+              <li>Data Cleaning Pre-processed raw data in Excel and Power BI to handle nulls, standardize formats, and ensure consistency.</li>
+              <li>Data Modeling Built relationships and applied DAX for dynamic filtering and year-over-year comparisons.</li>
+              <li>Interactive Dashboard Design Created a global view with maps, pie charts, and time-series bar charts to compare GDP trends across countries and years (2020-2025).</li>
+              <li>Big Data Insights Enabled users to explore economic shifts, regional growth patterns, and top contributors to global GDP in 2025.</li>
+              <li>Used line charts, small multiples and forecast visuals to highlight recovery trajectories post-2020, and added filters for region, income group and key economic indicators.</li>
+              <li>Included executive summary cards and exportable insights for stakeholder reporting.</li>
+            </ul>
+            <a href="git@github.com:vishnu08-p/GDP_World_Growth_2020-2025.git" target="_blank">git@github.com:vishnu08-p/GDP_World_Growth_2020-2025.git</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <h3>Microsoft Virtual Internship</h3>
+      <ul>
+        <li>Built a scalable AI model for financial decision-making—turning theory into real-world impact.</li>
+        <li>Worked on real-world datasets to develop, train, and evaluate machine learning models.</li>
+        <li>Gained hands-on experience in data preprocessing, feature engineering, and model validation.</li>
+        <li>Collaborated virtually with a global team, enhancing communication and teamwork skills.</li>
+        <li>Improved my understanding of deploying AI solutions in business environments.</li>
+      </ul>
+      <h3>Tata Group Data Analytics Job Simulation (Forage) <span class="date">July 2025</span></h3>
+      <ul>
+        <li>Completed a job simulation focused on AI-powered data analytics and strategy development for Tata iQ’s Financial Services team.</li>
+        <li>Applied GenAI tools for EDA, predictive modeling, and responsible AI strategy in a real-world context.</li>
+        <li>Designed and justified AI-driven solutions for customer credit risk and collections strategy.</li>
+      </ul>
+    </section>
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Computer Applications (Big Data & Machine Learning)</strong><br>
+      SDHR Degree College, Tirupati, AP<br>
+      <span>Sep 2022 – May 2025 | <strong>73%</strong></span></p>
+      <p>
+        <strong>Relevant Coursework:</strong> Machine Learning, Algorithms Analysis, Database Management, Artificial Intelligence, Software Methodology, Statistics &amp; Probability, Python Programming, Computer Applications
+      </p>
+      <ul>
+        <li>Completed hands-on projects in machine learning and data analytics using Python and real-world datasets.</li>
+        <li>Developed strong foundations in statistics, probability, and algorithmic thinking.</li>
+        <li>Applied database management concepts to design and query relational databases (SQL).</li>
+        <li>Collaborated on team projects focused on AI and software development methodologies.</li>
+        <li>Consistently achieved high grades in core technical subjects and practical labs.</li>
+      </ul>
+    </section>
+    <section id="certificate" class="card">
+      <h2>Certificate</h2>
+      <p>Tata - GenAI Powered Data Analytics Job Simulation (Forage)</p>
+      <p>Microsoft Virtual Internship Certificate</p>
+    </section>
+    <section class="card">
+      <h2>Portfolio & Power BI Projects</h2>
+      <p>Check out my portfolio & Power BI projects: Blinkit sales analysis (Tier 1/2/3) and Global GDP Growth (2020–2025) 🎯</p>
+      <p><a href="https://vishnu08-p.github.io/my-portfolio-website/" target="_blank">View site → https://vishnu08-p.github.io/my-portfolio-website/</a></p>
+      <p><a href="https://github.com/vishnu08-p/my-portfolio-website" target="_blank">Source (repo) → https://github.com/vishnu08-p/my-portfolio-website</a></p>
+      <p>Built with Power BI, Python & Power BI best practices — data cleaning, modeling (DAX), and interactive dashboards. Feedback welcome!</p>
+    </section>
+  </main>
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target) {
+          window.scrollTo({ top: target.offsetTop - 60, behavior: 'smooth' });
+        }
+      });
+    });
+
+    const animatedEls = document.querySelectorAll('.card, .project-block, .profile-section');
+    function animateOnScroll() {
+      animatedEls.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 60) {
+          el.style.opacity = 1;
+          el.style.transform = 'translateY(0)';
+        }
+      });
+    }
+    window.addEventListener('scroll', animateOnScroll);
+    window.addEventListener('load', animateOnScroll);
+
+    document.getElementById('showMoreProjects').onclick = function(e) {
+      e.preventDefault();
+      var more = document.getElementById('moreProjects');
+      if (more.style.display === "none") {
+        more.style.display = "block";
+        this.textContent = "Show less ↑";
+      } else {
+        more.style.display = "none";
+        this.textContent = "To see all →";
+      }
+    };
+  </script>
+</body>
+</html>
